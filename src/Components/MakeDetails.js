@@ -24,6 +24,9 @@ const useStyles = makeStyles(theme => ({
   },
   media: {
     height: 140
+  },
+  button: {
+    marginRight: theme.spacing(1)
   }
 }));
 
@@ -34,6 +37,16 @@ const MakeDetails = ({ match }) => {
   const makeDetails = make.filter(x => x.make === match.params.make);
   return (
     <div className={classes.root}>
+      <NavLink to={"../"} exact strict>
+        <Button
+          variant="contained"
+          color="primary"
+          className={classes.button}
+          style={{ marginBottom: "10px" }}
+        >
+          Back
+        </Button>
+      </NavLink>
       <Grid
         container
         direction="row"

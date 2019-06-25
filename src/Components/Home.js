@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import * as api from "../utils/api";
 import { NavLink } from "react-router-dom";
-import MakeDetails from "./MakeDetails";
 
 function MakeList(props) {
   return (
