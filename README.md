@@ -4,6 +4,7 @@ Screen1 : List brands (Make)
 Screen2 : List available models. Should be a brief summary
 
 Screen3 : Detailed information of that model
+
 ------------------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
