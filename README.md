@@ -1,5 +1,6 @@
-Challenge : 
-Screen1 : List brands (Make)
+Challenge :
+
+Screen1 : List brands (Make).
 
 Screen2 : List available models. Should be a brief summary.
 
